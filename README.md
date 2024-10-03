@@ -11,10 +11,10 @@ In the current project, a data set from the US Irvine Machine Learning Repositor
 
 Model performance characteristics are shown in the table below:
 | ML metrics      | Logistic Regression |   Decision Tree | Random Forest | 
-| -------------   | ------------------  |   ------------- | ------------- | 
-| recall=0        | 0.94                |  0.93           | 0.91          | 
-| recall=1        | 0.89                |  0.94           | 0.94          | 
-| accuracy        | 0.92                |                 | 0.92          | 
+| --------------- | ------------------  |   ------------- | ------------- | 
+| recall(no fraud)| 0.96                |  1              | 1             | 
+| recall(fraud)   | 0.91                |  0.83           | 0.78          | 
+| accuracy        | 0.96                |  1              | 1             | 
 
 ## Conclusion
 The best performance to detect credit card fraud showed the logistic regression model with threshold 0.001644
